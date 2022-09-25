@@ -1,0 +1,205 @@
+body {
+  overflow-x: hidden;
+  /* background: url('../contact/bg1.png'); */
+  /* background-size: 68vw 60vw; */
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  /* background-position: top; */
+  background: linear-gradient(to right, rgba(114, 86, 174, 1) 0%, rgba(117, 83, 174, 1) 29%, rgba(128, 75, 174, 1) 53%, rgba(140, 66, 174, 1) 100%);
+}
+
+img {
+  max-width: 100%;
+}
+
+/* outer div */
+.outer-div {
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* padding from top */
+.log {
+  margin-top: 100px;
+}
+
+.log h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* margin-top */
+.mar-1 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.img-1{
+  width:100px;margin-bottom: 10px;
+}
+.forget {
+  color: white;
+  display: inline-block !important;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.forget:hover {
+  color: white;
+  text-decoration-color: white;
+}
+
+/* login button */
+.login-btn {
+  margin-top: 20px;
+  display: inline-block;
+  border: none;
+  border-radius: 20px;
+  padding: 5px;
+  width: 150px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  background: white;
+  margin-bottom: 10px;
+  outline: none !important;
+}
+.login-btn:hover{
+  box-shadow: 5px 5px 15px #00000021;
+}
+/* input width */
+.inp-1 {
+  width: 400px !important;
+  border-radius: 20px !important;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 15px #00000021;
+  background: url('../contact/icons8-important-mail-24.png') no-repeat 98%;
+  outline: none !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 400 !important;
+}
+.inp-1:focus{
+  box-shadow: 5px 5px 15px #00000021 !important;
+}
+/* .inp-1 .inp-2 ::placeholder{
+  color: rgba(73,80,87,0.1) !important;
+} */
+.inp-1::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(73,80,87,0.6) !important;
+}
+
+.inp-1:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgba(73,80,87,0.6) !important;
+}
+
+.inp-1::-ms-input-placeholder { /* Microsoft Edge */
+  color: rgba(73,80,87,0.6) !important;
+}
+.inp-2::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(73,80,87,0.6) !important;
+}
+
+.inp-2:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgba(73,80,87,0.6) !important;
+}
+
+.inp-2::-ms-input-placeholder { /* Microsoft Edge */
+  color: rgba(73,80,87,0.6) !important;
+}
+.inp-2 {
+  width: 400px !important;
+  border-radius: 20px !important;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 15px #00000021;
+  background: url('../contact/Lock-icom.svg') no-repeat 98%;
+  background-size: 20px 25px;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 400 !important;
+}
+.inp-2:focus{
+  box-shadow: 5px 5px 15px #00000021 !important;
+}
+.check-1{
+    display: inline-block !important;
+    margin-right: 100px;
+    color: white;
+    font-size: 17px;
+}
+.check-1 input[type=checkbox], input[type=radio] {
+  margin-top: 7px !important;
+}
+@media(max-width:766px) {
+
+  /* login button */
+  .login-btn {
+    margin-left: 0px;
+    display: inline-block;
+    width: 150px;
+    font-size: 17px;
+
+  }
+  .log h1{
+    font-size: 45px;
+    margin-bottom: 30px;
+  }
+  /* input width */
+  .inp-1 {
+    width: 300px !important;
+    margin-bottom: 15px;
+  }
+
+  .inp-2 {
+    width: 300px !important;
+    margin-bottom: 20px;
+  }
+  .check-1{
+    display: inline-block;
+    margin-right: 40px;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  .forget{
+    font-size: 15px;
+  }
+  .log {
+    margin-top: 70px;
+  }
+}
+
+@media(max-width:350px) {
+
+  /* login button */
+  .login-btn {
+    margin-left: auto;
+    width: 110px;
+    font-size: 17px;
+  }
+  .forget {
+    font-size: 14px;
+}
+
+  /* input width */
+  .inp-1 {
+    width: 290px !important;
+    margin-bottom: 20px;
+  }
+
+  .inp-2 {
+    width: 290px !important;
+    margin-bottom: 20px;
+  }
+  .mar-1 {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.log {
+  margin-top: 60px;
+}
+.log h1{
+  font-size: 40px;
+}
+}
